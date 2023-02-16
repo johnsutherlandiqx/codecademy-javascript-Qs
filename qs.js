@@ -104,7 +104,6 @@ walkSignal === 'Walk' ? console.log('You may walk!') : console.log('Do not walk!
 
 7. // If isHungry equals true, which of the following expressions evaluates to true?
 
-
 !isHungry
 
 isHungry !== false
@@ -117,8 +116,46 @@ isHungry === false
 👏
 Correct! isHungry does not equal false.
 
-8. // Finding tacos
-👏
-Correct! Since needTacos is true, the first block will run.
+8. // find output
+let needTacos = true;
+ 
+if (needTacos) {
+    console.log("Finding tacos");
+} else {
+    console.log("Keep on keeping on!");
+}
 
-8. //
+//answer - Finding tacos
+👏 Correct! Since needTacos is true, the first block will run.
+
+9. // What will the code block log to the console?
+
+let groceryItem = "apple";
+ 
+switch (groceryItem) {
+  case "tomato":
+    console.log("Tomatoes are $0.49");
+    break;
+  case "lime":
+    console.log("Limes are $1.49");
+    break;
+  case "papaya":
+    console.log("Papayas are $1.29");
+    break;
+  default:
+    console.log("Invalid item");
+    break;
+}
+
+Papayas are $1.29
+
+Tomatoes are $0.49
+
+Invalid item
+
+Limes are $1.49
+
+//answer - Invalid item
+👏 Correct! Since groceryItem = "apple", it does not match any of the cases, so the default block will run.
+
+10. //
