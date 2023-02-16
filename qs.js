@@ -59,7 +59,12 @@ either = or ===
 =
 ===
  
- //answer - === compares values
+ //answer - 
+ === compares values
+ ===
+
+👏
+Yes! The === operator is used to compare values.
  
  5. What will the code block log to the console?
 
@@ -176,3 +181,24 @@ if (isFurry || weight > 100) {
 }
 
 //answer - 
+if (isFurry && weight > 100) {
+  console.log("Bear!");
+}
+👏
+Correct! This only logs “Bear!” if isFurry is true and weight is greater than 100.
+
+11. // What is the general purpose of a conditional statement?
+
+
+Conditional statements make all computers capable of thought.
+
+
+Conditional statements answer binary (yes-or-no) questions.
+
+(Selected)Correct:
+Conditional statements evaluate code as either true or false.
+
+👏
+Great work!
+ 
+ 12. //
