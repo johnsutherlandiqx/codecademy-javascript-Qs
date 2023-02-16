@@ -158,4 +158,21 @@ Limes are $1.49
 //answer - Invalid item
 👏 Correct! Since groceryItem = "apple", it does not match any of the cases, so the default block will run.
 
-10. //
+10. // Translate this to JavaScript:
+
+Log “Bear!” to console if isFurry is true and weight is over 100 pounds.
+
+
+if (isFurry && weight > 100) {
+  console.log("Bear!");
+}
+
+if ( !(isFurry && weight > 100) ) {
+  console.log("Bear!");
+}
+
+if (isFurry || weight > 100) {
+  console.log("Bear!");
+}
+
+//answer - 
