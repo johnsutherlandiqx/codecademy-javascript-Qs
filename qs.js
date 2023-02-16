@@ -81,4 +81,44 @@ Keep on running!
 Nice workout!
 You’re super fast!
  
- //answer - 
+ //answer - Nice workout!
+ // 👏 Exactly right! The condition (runTime is greater than 30 OR runDistance is greater than 3) is true.
+ 
+ 6. // How would you properly refactor this code block using the ternary operator?
+
+if (walkSignal === 'Walk') {
+    console.log('You may walk!'); 
+} else {   
+    console.log('Do not walk!');
+}
+
+walkSignal ? console.log('You may walk!') : console.log('Do not walk!');
+
+walkSignal === 'Walk' : console.log('You may walk!') : console.log('Do not walk!');
+
+walkSignal === 'Walk' ? ('You may walk!') : ('Do not walk!');
+
+walkSignal === 'Walk' ? console.log('You may walk!') : console.log('Do not walk!');
+
+//Answer - walkSignal === 'Walk' ? console.log('You may walk!') : console.log('Do not walk!');
+
+7. // If isHungry equals true, which of the following expressions evaluates to true?
+
+
+!isHungry
+
+isHungry !== false
+
+!isHungry === true
+
+isHungry === false
+
+//answer - isHungry !== false
+👏
+Correct! isHungry does not equal false.
+
+8. // Finding tacos
+👏
+Correct! Since needTacos is true, the first block will run.
+
+8. //
